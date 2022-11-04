@@ -1,14 +1,18 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import LogoComponent from './components/LogoComponents'
+import TitleComponent from './components/TitleComponent'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
-      <p>This will be my website
-      </p>
+      <header>
+        <LogoComponent></LogoComponent>
+        <TitleComponent></TitleComponent>
+      </header>
+      
     </div>
   )
 }
